@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <g transform="translate(256,256)">
+    <!-- Heart -->
+    <path d="M0,40 C-50,-10 -80,-30 -80,-60 C-80,-85 -60,-100 -35,-100 C-15,-100 -5,-85 0,-70 C5,-85 15,-100 35,-100 C60,-100 80,-85 80,-60 C80,-30 50,-10 0,40 Z" fill="white" opacity="0.95"/>
+    <!-- Chat bubble -->
+    <circle cx="-25" cy="-50" r="6" fill="#6C63FF"/>
+    <circle cx="0" cy="-55" r="6" fill="#6C63FF"/>
+    <circle cx="25" cy="-50" r="6" fill="#6C63FF"/>
+  </g>
+  <text x="256" y="430" font-family="Plus Jakarta Sans, sans-serif" font-size="56" font-weight="700" fill="white" text-anchor="middle" opacity="0.9">DeepTalk</text>
+</svg>
